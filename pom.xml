@@ -6,4 +6,9 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>MyTuDuList</name>
+    <ciManagement>
+        <system>hudson</system>
+        <url>http://localhost:8080/jenkins/job/MyTuDuList/</url>
+    </ciManagement>
+    <developers></developers>
 </project>
