@@ -10,5 +10,9 @@
         <system>hudson</system>
         <url>http://localhost:8080/jenkins/job/MyTuDuList/</url>
     </ciManagement>
-    <developers></developers>
+    <developers>
+        <developer>
+            <name>Jean-Yves Gueret</name>
+        </developer>
+    </developers>
 </project>
