@@ -15,4 +15,7 @@
             <name>Jean-Yves Guerettt</name>
         </developer>
     </developers>
+    <distributionManagement>
+
+    </distributionManagement>
 </project>
