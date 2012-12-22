@@ -31,6 +31,7 @@ public class AppTest
     /**
      * Rigourous Test :-)
      */
+    @org.junit.Test
     public void testApp()
     {
         assertTrue( true );
