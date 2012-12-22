@@ -3,6 +3,7 @@
   <persistence-unit name="persistenceUnit" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <class>lu.pragmaconsult.mytudulist.model.LogInfo</class>
+    <class>lu.pragmaconsult.mytudulist.model.User</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/tudu"/>
       <property name="javax.persistence.jdbc.password" value="sa"/>
