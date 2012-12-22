@@ -1,21 +1,27 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>lu.pragmaconsult</groupId>
-  <artifactId>MyTuDuList</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <name>MyTuDuList</name>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>lu.pragmaconsult</groupId>
+    <artifactId>MyTuDuList</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>MyTuDuList</name>
     <ciManagement>
         <system>hudson</system>
         <url>http://localhost:8080/jenkins/job/MyTuDuList/</url>
     </ciManagement>
     <developers>
         <developer>
-            <name>Jean-Yves Guerettt</name>
+            <name>Jean-Yves Gueret</name>
         </developer>
     </developers>
-    <distributionManagement>
+    
+    <properties>
+        <spring.version>3.1.3.RELEASE</spring.version>
+    </properties>
 
-    </distributionManagement>
+    <modules>
+        <module>MyTuDuList-common</module>
+    <module>MyTuDuList-webapp</module>
+  </modules>
 </project>
